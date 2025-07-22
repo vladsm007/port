@@ -18,13 +18,13 @@ const Profile = () => {
                 />
             </div>
             <h1 className="text-2xl font-bold text-white mt-4">Victor M. Torres</h1>
-            <p className="text-white">
+            <p className="text-white justify-center">
               Analista dedicado ao constante autodesenvolvimento, buscando
               aprimorar habilidades técnicas e interpessoais. Movido pelo
               propósito de impactar positivamente a sociedade.
             </p>
             <div className="flex items-center gap-6 mt-4">
-                <a href="https://github.com/vladsm007" target="_blank" rel="noopener noreferrer" aria-label="Perfil do GitHub de Victor M. Torres">
+                <a href="https://github.com/vladsm007" target="_blank" rel="noopener noreferrer" aria-label="Perfil do GitHub">
                     <Image
                       src={GitHibIcon}
                       alt="Ícone do GitHub"
@@ -32,7 +32,7 @@ const Profile = () => {
                       height={30}
                     />
                 </a>
-                <a href="https://linkedin.com/in/seu-usuario-aqui" target="_blank" rel="noopener noreferrer" aria-label="Perfil do LinkedIn de Victor M. Torres">
+                <a href="https://www.linkedin.com/in/victor-torres-6a605ba3/" target="_blank" rel="noopener noreferrer" aria-label="Perfil do LinkedIn">
                     <Image
                       src={LinkedInIcon}
                       alt="Ícone do LinkedIn"

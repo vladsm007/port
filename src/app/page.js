@@ -1,9 +1,9 @@
-import Main from "./pages/main/Main";
-import Articles from "./pages/articles/Articles";
-import Experience from "./pages/experience/Experience";
-import Projects from "./pages/projects/Projects";
-import Navbar from "./components/navbar/Navbar";
-import Profile from "./components/profile/Profile";
+import Main from './main/page'
+import Articles from './articles/page'
+import Experience from './experience/page'
+import Projects from './projects/page'
+import Navbar from './components/navbar/Navbar'
+import Profile from './components/profile/Profile'
 
 
 export default function Home() {

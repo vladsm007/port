@@ -14,7 +14,7 @@ const Navbar = () => {
         <div className="flex justify-center p-1">
             <div className='w-65 h-fit relative flex justify-center p-1 m-2 bg-stone-800 rounded-3xl'>
                 <div className=" m-2">
-                    <Link href='/'>
+                    <Link href='/' passHref >
                         <Image
                         src={HomeIcon}
                         alt='Home'
@@ -24,7 +24,7 @@ const Navbar = () => {
                     </Link>
                 </div>
                 <div className=" m-2">
-                    <Link href='/projects'>
+                    <Link href='/projects' passHref>
                         <Image
                         src={ProjectsIcon}
                         alt='Projects'
@@ -34,7 +34,7 @@ const Navbar = () => {
                     </Link>
                 </div>
                 <div className=" m-2">
-                   <Link href='/experience'>
+                   <Link href='/experience' passHref>
                         <Image
                         src={ExpIcon}
                         alt='Experience'
@@ -44,7 +44,7 @@ const Navbar = () => {
                     </Link>
                 </div>
                 <div className=" m-2">
-                    <Link href='/tools'>
+                    <Link href='/tools' passHref>
                         <Image
                         src={ToolsIcon}
                         alt='Tools'
@@ -54,7 +54,7 @@ const Navbar = () => {
                     </Link>
                 </div>
                 <div className=" m-2">
-                    <Link href='/thoughts'>
+                    <Link href='/thoughts' passHref>
                         <Image
                         src={ThoughtsIcon}
                         alt='Thoughts'
