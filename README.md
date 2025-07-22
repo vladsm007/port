@@ -14,7 +14,7 @@ You need to have Node.js and npm installed on your machine. You can download the
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/vladsm007/port](https://github.com/vladsm007/port)
+   git clone https://github.com/vladsm007/port
    cd your-repo-name
    ```
 2. **Install dependencies:**
