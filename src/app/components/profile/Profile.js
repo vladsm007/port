@@ -6,7 +6,7 @@ import LinkedInIcon from '../../../../public/assets/linkedinIcon.png'
 
 const Profile = () => {
   return (
-    <div className="w-full">
+    <div className="w-full ">
       <div className="metal-texture rounded-2xl text-center p-2 flex flex-col items-center gap-3 shadow-2xl metal-ruby-effect" >
         
         {/* Imagem do perfil */}

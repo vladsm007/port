@@ -4,10 +4,9 @@ import Experience from './experience/page'
 import Projects from './projects/page'
 import Navbar from './components/navbar/Navbar'
 import Profile from './components/profile/Profile'
+import Footer from './components/footer/Footer'
 import ItemTool from './components/itemTool/ItemTool'
 import Image from 'next/image'
-
-
 import Tools from './tools/page'
 
 export default function Home() {
@@ -55,7 +54,9 @@ export default function Home() {
               </section>
             </div>
           </div>
-          
+          <footer>
+            <Footer />
+          </footer>
         </div>
       </div>
     </div>
