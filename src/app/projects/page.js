@@ -21,21 +21,21 @@ const Projects = () => {
         href="https://github.com/vladsm007"
         mainImage={WebAppImage1}
         mainImageAlt="Descrição da imagen do projeto"
-        title="Titulo do projeto"
+        title="Título do projeto"
         subtitle="Descrição do projeto"
         />
         <ProjectsInfo
         href="https://github.com/vladsm007"
         mainImage={WebAppImage2}
         mainImageAlt="Descrição da imagen do projeto"
-        title="Titulo do projeto"
+        title="Título do projeto"
         subtitle="Descrição do projeto"
         />
         <ProjectsInfo
         href="https://github.com/vladsm007"
         mainImage={WebAppImage3}
         mainImageAlt="Descrição da imagen do projeto"
-        title="Titulo do projeto"
+        title="Título do projeto"
         subtitle="Descrição do projeto"
         />
         

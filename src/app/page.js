@@ -4,6 +4,11 @@ import Experience from './experience/page'
 import Projects from './projects/page'
 import Navbar from './components/navbar/Navbar'
 import Profile from './components/profile/Profile'
+import ItemTool from './components/itemTool/ItemTool'
+import Image from 'next/image'
+
+import FigmaIcon from '../../public/assets/figma-144.png'
+import Tools from './tools/page'
 
 export default function Home() {
   return (
@@ -31,9 +36,13 @@ export default function Home() {
               <section id="projects">
                 <Projects />
               </section>
-              
+
               <section id="experience">
                 <Experience />
+              </section>
+
+              <section id="tools">
+                <Tools />
               </section>
               
               <section id="articles">
