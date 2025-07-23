@@ -14,9 +14,7 @@ const Tools = () => {
             <h2 className="text-7xl font-bold text-white mb-6">
                 FERRAMENTAS
                 <br></br>
-                <span className=" text-neutral-800">
                 PREMIUM
-                </span>
             </h2>
         </div>
         <div className="grid grid-cols-2 gap-4">

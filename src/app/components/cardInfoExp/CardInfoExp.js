@@ -28,7 +28,7 @@ const CardInfoExp = ({
             alt="Ir para experiência"
             width={20}
             height={20}
-            className="absolute top-2 right-2"
+            className="absolute top-2 right-2 hover:scale-120 transition-transform duration-200"
             />
         </div>
      </Link>

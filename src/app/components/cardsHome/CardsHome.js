@@ -24,7 +24,7 @@ const CardsHome = () => {
             alt='Experiencia'
             width={30}
             height={30}
-            className="absolute bottom-1 right-4"
+            className="absolute bottom-1 right-4 hover:scale-120 transition-transform duration-200"
             />
             </ Link>
         </div>
@@ -45,7 +45,7 @@ const CardsHome = () => {
             alt='Projetos'
             width={30}
             height={30}
-            className="absolute bottom-1 right-4"
+            className="absolute bottom-1 right-4 hover:scale-120 transition-transform duration-200"
             />
             </Link>
         </div>

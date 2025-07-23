@@ -12,9 +12,7 @@ const Projects = () => {
       <h2 className="text-7xl font-bold text-white mb-6">
         PROJETOS
          <br></br>
-         <span className=" text-neutral-800">
           RECENTES
-          </span>
       </h2>
       <section className="grid grid-cols-1 gap-6">
         <ProjectsInfo

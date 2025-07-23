@@ -12,7 +12,12 @@ import Tools from './tools/page'
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-neutral-950 text-white">
+    <div className="min-h-screen text-white bg-cover bg-center bg-fixed"
+    style={{ 
+      backgroundImage: "url('/assets/wallpaper.jpg')", 
+      backgroundColor: "#000",
+      backgroundRepeat: "no-repeat",
+      }}>
       <Navbar />
       
       {/* Container principal com layout em grid */}

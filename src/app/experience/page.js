@@ -7,10 +7,9 @@ const Experience = () => {
       <h2 className="text-7xl font-bold text-white mb-6">
         13 ANOS DE
          <br></br>
-         <span className=" text-neutral-800">
           EXPERIÊNCIA
-          </span>
       </h2>
+      
       <section className="grid grid-cols-1 gap-6">
         <CardInfoExp 
         href='https://github.com/vladsm007'

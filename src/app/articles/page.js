@@ -7,10 +7,9 @@ const Articles = () => {
       <h2 className="text-7xl font-bold text-white mb-6">
         IDEIAS DE
          <br></br>
-         <span className=" text-neutral-800">
-          DESIGN
-          </span>
+         DESIGN
       </h2>
+      
       <section>
         <ThoughtsInfo 
         href='https://github.com/vladsm007'

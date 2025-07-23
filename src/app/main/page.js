@@ -7,13 +7,11 @@ const Main = () => {
       <h2 className="text-8xl font-bold text-white mb-6">
         ANALISTA
          <br></br>
-         <span className=" text-neutral-800">
           DE SISTEMAS
-          </span>
       </h2>
 
       <div className="space-y-4 text-gray-600">
-        <p className="text-lg leading-relaxed">
+        <p className="text-lg leading-relaxed text-white">
           Um analista apaixonado por tecnologia e desenvolvimento.
           Este é o meu espaço onde compartilho projetos, experiências e conhecimentos.
         </p>

@@ -20,6 +20,7 @@ const Navbar = () => {
                         alt='Home'
                         width={25}
                         height={25}
+                        className="hover:scale-130 transition-transform duration-200"
                         />
                     </Link>
                 </div>
@@ -30,6 +31,7 @@ const Navbar = () => {
                         alt='Projects'
                         width={25}
                         height={25}
+                        className="hover:scale-130 transition-transform duration-200"
                         />
                     </Link>
                 </div>
@@ -40,6 +42,7 @@ const Navbar = () => {
                         alt='Experience'
                         width={25}
                         height={25}
+                        className="hover:scale-130 transition-transform duration-200"
                         />
                     </Link>
                 </div>
@@ -50,6 +53,7 @@ const Navbar = () => {
                         alt='Tools'
                         width={25}
                         height={25}
+                        className="hover:scale-130 transition-transform duration-200"
                         />
                     </Link>
                 </div>
@@ -60,6 +64,7 @@ const Navbar = () => {
                         alt='Thoughts'
                         width={25}
                         height={25}
+                        className="hover:scale-130 transition-transform duration-200"
                         />
                     </Link>
                 </div>
