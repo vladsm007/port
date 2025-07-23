@@ -10,10 +10,10 @@ import Link from 'next/link'
 
 const Navbar = () => {
   return (
-    <div className="fixed top-0 left-1/2 transform -translate-x-1/2 w-full max-w-screen-md z-50" >
-        <div className="flex justify-center p-1">
-            <div className='w-65 h-fit relative flex justify-center p-1 m-2 bg-stone-800 rounded-3xl'>
-                <div className=" m-2">
+    <div className="fixed top-0 left-1/2 transform -translate-x-1/2 w-full max-w-screen-md z-50 " >
+        <div className="flex justify-center p-1 ">
+            <div className='w-65 h-fit relative flex justify-center p-1 m-2 metal-texture rounded-3xl shadow-2x1 metal-ruby-effect'>
+                <div className="m-2">
                     <Link href='/' passHref >
                         <Image
                         src={HomeIcon}

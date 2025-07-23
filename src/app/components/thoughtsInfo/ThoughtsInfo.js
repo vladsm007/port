@@ -12,7 +12,7 @@ const ThoughtsInfo = ({
 }) => {
   return (
     <Link href={href} passHref>
-        <div className="hover:bg-gradient-to-r hover:bg-red-600 rounded-lg p-4 relative h-40 transition duration-200 ease-in-out flex flex-col">
+        <div className="metal-texture metal-ruby-effect rounded-lg m-3 p-4 relative h-40 transition duration-200 ease-in-out flex flex-col">
             <div className="flex-grow">
               <h6 className="text-2xl font-bold text-white mb-2">
                 {title}

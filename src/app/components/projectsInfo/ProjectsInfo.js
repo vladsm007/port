@@ -13,7 +13,7 @@ const ProjectsInfo = ({
 }) => {
   return (
     <Link href={href} passHref>
-    <div className=" hover:bg-gradient-to-r hover:bg-red-600 rounded-lg p-4 relative h-35 grid grid-cols-3 justify-between transition duration-200 ease-in-out">
+    <div className="metal-texture metal-ruby-effect rounded-lg p-4 relative h-35 grid grid-cols-3 justify-between transition duration-200 ease-in-out">
           <Image 
             src={mainImage}
             alt={mainImageAlt}

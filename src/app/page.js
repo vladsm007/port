@@ -7,12 +7,12 @@ import Profile from './components/profile/Profile'
 import ItemTool from './components/itemTool/ItemTool'
 import Image from 'next/image'
 
-import FigmaIcon from '../../public/assets/figma-144.png'
+
 import Tools from './tools/page'
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-neutral-900">
+    <div className="min-h-screen bg-neutral-950 text-white">
       <Navbar />
       
       {/* Container principal com layout em grid */}

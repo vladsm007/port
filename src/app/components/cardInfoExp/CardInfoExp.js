@@ -11,7 +11,7 @@ const CardInfoExp = ({
 }) => {
   return (
     <Link href={href} passHref>
-        <div className=" hover:bg-gradient-to-r hover:bg-red-600 rounded-lg p-4 relative h-35 transition duration-200 ease-in-out">
+        <div className=" metal-texture metal-ruby-effect rounded-lg p-4 relative h-35 transition duration-200 ease-in-out">
             <div className="flex flex-col">
               <h6 className="text-2xl font-bold text-white mb-2">
                 {title}
