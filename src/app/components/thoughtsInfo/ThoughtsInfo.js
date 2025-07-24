@@ -12,7 +12,7 @@ const ThoughtsInfo = ({
 }) => {
   return (
     <Link href={href} passHref>
-        <div className="metal-texture metal-ruby-effect rounded-lg m-1 sm:m-3 p-3 sm:p-4 relative min-h-[120px] sm:h-40 transition duration-200 ease-in-out flex flex-col">
+        <div className="metal-texture metal-ruby-effect rounded-lg m-1 sm:m-3 p-3 sm:p-4 relative min-h-[120px] sm:h-40 lg:h-45 transition duration-200 ease-in-out flex flex-col">
             <div className="flex-grow pr-6">
               <h6 className="text-lg sm:text-xl lg:text-2xl font-bold text-white mb-1 sm:mb-2">
                 {title}

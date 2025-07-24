@@ -11,7 +11,7 @@ const CardInfoExp = ({
 }) => {
   return (
     <Link href={href} passHref>
-        <div className="metal-texture metal-ruby-effect rounded-lg p-3 sm:p-4 relative min-h-[100px] sm:h-35 transition duration-200 ease-in-out">
+        <div className="metal-texture metal-ruby-effect rounded-lg p-3 sm:p-4 relative min-h-[100px] sm:h-35 lg:h-40 transition duration-200 ease-in-out">
             <div className="flex flex-col pr-6">
               <h6 className="text-lg sm:text-xl lg:text-2xl font-bold text-white mb-1 sm:mb-2">
                 {title}

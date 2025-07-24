@@ -15,9 +15,7 @@ const ItemTool = ({
           <div className="flex-shrink-0">
             <Image 
               src={toolImage}
-              alt="Link para a ferramenta"
-              width={60}
-              height={60}
+              alt="Link para a ferramenta"             
               className="sm:w-[100px] sm:h-[100px]"
               />
           </div>
