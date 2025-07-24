@@ -16,7 +16,7 @@ const ItemTool = ({
             <Image 
               src={toolImage}
               alt="Link para a ferramenta"             
-              className="sm:w-[100px] sm:h-[100px]"
+              className="sm:w-[100px] sm:h-[100px] md:w-[70px] md:h-[70px] "
               />
           </div>
 

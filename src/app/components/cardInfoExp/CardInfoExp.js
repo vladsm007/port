@@ -16,7 +16,7 @@ const CardInfoExp = ({
               <h6 className="text-lg sm:text-xl lg:text-2xl font-bold text-white mb-1 sm:mb-2">
                 {title}
               </h6>
-              <p className="text-xs sm:text-sm text-neutral-300 leading-relaxed mb-2">
+              <p className="md:text-xs sm:text-sm text-neutral-300 leading-relaxed">
                 {text}
               </p>
               <p className="text-xs sm:text-sm text-neutral-300">
