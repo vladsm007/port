@@ -1,3 +1,4 @@
+
 import Main from './main/page'
 import Articles from './articles/page'
 import Experience from './experience/page'
@@ -9,9 +10,11 @@ import ItemTool from './components/itemTool/ItemTool'
 import Image from 'next/image'
 import Tools from './tools/page'
 
+
+
 export default function Home() {
   return (
-    <div className="min-h-screen text-white bg-cover bg-center bg-fixed"
+    <div className="min-h-screen text-white bg-cover bg-center bg-fixed intel-one-mono"
     style={{ 
       backgroundImage: "url('/assets/wallpaper.jpg')", 
       backgroundColor: "#000",

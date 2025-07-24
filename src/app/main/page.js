@@ -3,15 +3,15 @@ import CardsHome from '../components/cardsHome/CardsHome'
 
 const Main = () => {
   return (
-    <div className="m-4 sm:m-8 lg:m-20 rounded-xl p-4 sm:p-6 lg:p-8 text-left shadow-md">
-      <h2 className="text-4xl sm:text-6xl lg:text-8xl font-bold text-white mb-4 sm:mb-6 leading-tight">
+    <div className="m-4 sm:m-8 lg:m-20 rounded-xl p-4 sm:p-6 lg:p-8 text-left shadow-md intel-one-mono">
+      <h2 className=' sm:text-6xl lg:text-8xl text-white mb-4 sm:mb-6 leading-tight  lg:font-extrabold'>
         ANALISTA
          <br></br>
           DE SISTEMAS
       </h2>
 
       <div className="space-y-4 text-gray-600">
-        <p className="text-sm sm:text-base lg:text-lg leading-relaxed text-white">
+        <p className="text-sm sm:text-base lg:text-lg leading-relaxed text-white italic">
           Um analista apaixonado por tecnologia e desenvolvimento.
           Este é o meu espaço onde compartilho projetos, experiências e conhecimentos.
         </p>

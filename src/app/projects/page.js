@@ -9,7 +9,7 @@ import Link from 'next/link'
 const Projects = () => {
   return (
       <div className="m-4 sm:m-8 lg:m-20 rounded-xl p-4 sm:p-6 lg:p-8 text-left shadow-md">
-      <h2 className="text-4xl sm:text-6xl lg:text-7xl font-bold text-white mb-4 sm:mb-6 leading-tight">
+      <h2 className="sm:text-6xl lg:text-7xl font-extrabold text-white mb-4 sm:mb-6 leading-tight">
         PROJETOS
          <br></br>
           RECENTES

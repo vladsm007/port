@@ -1,8 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Intel+One+Mono:ital,wght@0,300..700;1,300..700&family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
 @import "tailwindcss";
 
 html {
   scroll-behavior: smooth;
 }
+
+
+.intel-one-mono{
+  font-family: "Intel One Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: "200|500|700|800";
+  font-style: normal, italic;
+}
+
 
 /* Ajustes para mobile */
 @media (max-width: 640px) {
