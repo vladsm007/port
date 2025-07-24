@@ -7,7 +7,7 @@ import LinkedInIcon from '../../../../public/assets/linkedinIcon.png'
 const Profile = () => {
   return (
     <div className="w-full">
-      <div className="metal-texture lg:rounded-xl sm:rounded-2xl text-center p-3 sm:p-2 flex flex-col items-center gap-2 sm:gap-3 lg:ml-20 lg:p-2 lg:pt-10 shadow-2xl metal-ruby-effect">
+      <div className="metal-texture lg:rounded-xl sm:rounded-2xl text-center p-3 sm:p-2 flex flex-col items-center sm:gap-3 lg:ml-20 lg:p-2 lg:pt-3 shadow-2xl metal-ruby-effect">
         
         {/* Imagem do perfil */}
         <div className="relative">
@@ -33,7 +33,7 @@ const Profile = () => {
         </p>
         
         {/* Links sociais */}
-        <div className="flex items-center gap-3 sm:gap-4 mt-2 sm:mt-4">
+        <div className="flex items-center gap-3 sm:gap-4 lg:mt-1 sm:mt-4">
           <a 
             href="https://github.com/vladsm007" 
             target="_blank" 
