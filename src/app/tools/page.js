@@ -9,26 +9,26 @@ import JavaIcon from '../../../public/assets/java-144.png'
 
 const Tools = () => {
   return (
-    <div className="m-20 rounded-xl p-8 text-left shadow-md">
+    <div className="m-4 sm:m-8 lg:m-20 rounded-xl p-4 sm:p-6 lg:p-8 text-left shadow-md">
         <div>
-            <h2 className="text-7xl font-bold text-white mb-6">
+            <h2 className="text-4xl sm:text-6xl lg:text-7xl font-bold text-white mb-4 sm:mb-6 leading-tight">
                 FERRAMENTAS
                 <br></br>
                 PREMIUM
             </h2>
         </div>
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
             <ItemTool 
             href='https://www.figma.com/'
             toolImage={FigmaIcon}
             title="Figma"
-            subtitle="Desing Tool"
+            subtitle="Design Tool"
             />
             <ItemTool 
             href='https://react.dev/'
             toolImage={ReactIcon}
             title="React"
-            subtitle="javascript library"
+            subtitle="Javascript Library"
             />
             <ItemTool 
             href='https://nextjs.org/'
@@ -40,7 +40,7 @@ const Tools = () => {
             href='https://www.java.com/'
             toolImage={JavaIcon}
             title="Java"
-            subtitle="Programming language"
+            subtitle="Programming Language"
             />
         </div>
         

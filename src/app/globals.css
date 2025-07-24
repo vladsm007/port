@@ -4,6 +4,13 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Ajustes para mobile */
+@media (max-width: 640px) {
+  html {
+    font-size: 14px;
+  }
+}
+
 /*======TEXTURA PARA CARDS E SUPERFICES======*/
 .metal-texture {
   background: 
@@ -17,6 +24,17 @@ html {
     20px 20px,
     100% 100%;
   background-blend-mode: overlay;
+}
+
+/* Ajuste da textura para mobile */
+@media (max-width: 640px) {
+  .metal-texture {
+    background-size: 
+      150% 150%,
+      15px 15px,
+      15px 15px,
+      100% 100%;
+  }
 }
 
 /*======EFEITO NEON PARA O HOVER======*/
@@ -54,4 +72,37 @@ html {
 
 .metal-ruby-effect:active {
   transform: translateY(1px);
+}
+
+/* Ajustes para mobile no efeito hover */
+@media (max-width: 640px) {
+  .metal-ruby-effect {
+    background-size: 150% 150%, 15px 15px, 15px 15px, 100% 100%;
+  }
+  
+  .metal-ruby-effect:hover {
+    box-shadow: 0 10px 20px -3px rgb(255, 5, 5), 
+                0 5px 8px -3px rgba(224, 17, 95, 0.1);
+  }
+  
+  /* Touch feedback para dispositivos móveis */
+  .metal-ruby-effect:active {
+    transform: translateY(0.5px);
+    transition: transform 50ms ease-in;
+  }
+}
+
+/* Melhor suporte para toque em dispositivos móveis */
+@media (hover: none) and (pointer: coarse) {
+  .metal-ruby-effect:hover {
+    /* Remove hover effects on touch devices */
+    @apply shadow-md border-gray-600;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  }
+  
+  .metal-ruby-effect:active {
+    @apply shadow-xl border-red-600;
+    box-shadow: 0 10px 20px -3px rgb(255, 5, 5), 
+                0 5px 8px -3px rgba(224, 17, 95, 0.1);
+  }
 }
